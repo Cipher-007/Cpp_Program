@@ -24,7 +24,7 @@ do
 {
 cout<<"\n 1) Create Student Database ";
 cout<<"\n 2) Display Student Records ";
-cout<<"\n 3) Bubble Sort (To sort Roll Number wise) ";
+cout<<"\n 3) Bubble Sort (To sort Roll No wise) ";
 cout<<"\n 4) Insertion Sort (To sort according to the Name) ";
 cout<<"\n 5) Quick Sort (To sort according to the marks)";
 cout<<"\n 6) Linear search ";
@@ -59,18 +59,18 @@ cout<<"\t "<< s[i].roll_num<<"\t "<<s[i].name<<"\t"<<s[i].marks;
 }
 break;
 case 6:
-cout<<"\n Enter the marks which u want to search:=";
+cout<<"\n Enter the marks which you want to search:=";
 cin>>key;
 search(s,n,key);
 break;
 case 7:
-cout<<"\n Enter the name of student which u want to search:=";
+cout<<"\n Enter the name of student which you want to search:=";
 cin>>x;
 insertionSort(s,n);
 result=bsearch(s,x,0,(n-1));
 if(result==-1)
 {
-cout<<" \n Student name you want to search for is not present ! \n";
+cout<<" \n Student name you want to search is not present ! \n";
 }
 else
 {
@@ -79,7 +79,7 @@ cout<<" \n The student is present :\t" << s[result].name;
 break;
 case 8:return 0;
 
-default:cout<<"\n Invalid choice !! Please enter your choice again."<<endl;
+default:cout<<"\n Invalid choice !!"<<endl;
 }
 }while(ch!=8);
 }

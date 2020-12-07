@@ -1,5 +1,5 @@
-#include<cstdlib>
-#include"iostream"
+#include <cstdlib>
+#include <iostream>
 using namespace std;
 typedef struct node
 {

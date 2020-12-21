@@ -1,3 +1,8 @@
+/*
+Represent a graph of city using adjacency matrix /adjacency list. Nodes should represent the various
+landmarks and links should represent the distance between them. Find the shortest path using
+Dijkstra's algorithm from single source to all destination.
+*/
 #include<iostream> 
 using namespace std;
 

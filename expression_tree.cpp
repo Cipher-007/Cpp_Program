@@ -1,3 +1,6 @@
+/*
+Construct an Expression Tree from postfix and prefix expression. Perform recursive and nonrecursive In-order, pre-order and post-order traversals.
+*/
 #include <cstdlib>
 #include <iostream>
 using namespace std;

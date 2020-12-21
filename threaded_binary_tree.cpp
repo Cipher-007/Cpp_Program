@@ -1,4 +1,6 @@
-#include<bits/stdc++.h> 
+/*
+Implement In-order Threaded Binary Tree and traverse it in In-order and Pre-order
+*/#include<bits/stdc++.h> 
 using namespace std; 
 class Node
 { 

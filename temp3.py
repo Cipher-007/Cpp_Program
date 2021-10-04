@@ -1,0 +1,1 @@
+print("sab thik a")

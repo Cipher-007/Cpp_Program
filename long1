@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin>>t;
+
+    while(t--){
+        int d,x,y,z;
+        cin>>d >>x >>y >> z;
+
+        int b = 7*x;
+        int c = ((y*d)+((7-d)*z));
+
+        if(b>c){
+            cout<<b<<endl;
+        }
+        else if(c==b){
+            cout<<c<<endl;
+        }
+        else{
+            cout<<c<<endl;
+        }
+    }
+
+    return 0;
+}

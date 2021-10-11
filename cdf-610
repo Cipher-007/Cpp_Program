@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int num1;
+    cin>>num1;
+
+    long long num2 = num1*(num1+1)/2;
+    if(num2%2==0){
+        cout<<"0"<<endl;
+    }
+    else cout<<"1"<<endl;
+
+    return 0;
+}
